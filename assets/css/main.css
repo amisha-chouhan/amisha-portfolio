@@ -503,7 +503,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 10px 0;
   overflow: clip;
 }
 
@@ -546,7 +546,7 @@ section,
   display: flex;
   align-items: center;
   background-color: var(--background-color);
-  padding: 80px 0;
+  padding: 55px 0;
 }
 
 .hero h1 {
@@ -565,6 +565,9 @@ section,
   margin-inline: auto;
 }
 
+.text-part{
+  padding-left: 50px;
+}
 /* ------------------------------
    SOCIAL ICONS
 ------------------------------ */
@@ -979,6 +982,7 @@ section,
   padding: 4px 10px;
   font-size: 0.8rem;
   margin-right: 5px;
+  line-height: 30px;
 }
 
 /* Links (GitHub & Live Demo) */
