@@ -869,7 +869,7 @@ section,
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 0px 15px;
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
@@ -897,7 +897,7 @@ section,
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 .resume .resume-item:last-child {
