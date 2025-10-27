@@ -716,7 +716,7 @@ section,
 
 /* About Section */
 .about {
-  padding: 40px 0;
+  padding: 0px 0;
   background-color: var(--surface-color);
 }
 
@@ -768,6 +768,11 @@ section,
   border-radius: 10px;
   transition: transform 0.4s ease;
 }
+.text-center {
+  margin-top: 20px;
+}
+
+
 
 .about-img-wrapper:hover .about-img {
   transform: scale(1.05);
@@ -783,6 +788,10 @@ section,
     text-align: center;
     flex-direction: column;
   }
+  .text-center {
+    text-align: center !important;
+    margin-top: 0px !important;
+}
 
   .about .container {
     padding-left: 20px;
@@ -922,6 +931,7 @@ section,
 
 .projects-section {
   background-color: var(--background-color);
+  padding-top: 0px !important;
 }
 
 .section-title {
